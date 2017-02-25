@@ -1,101 +1,108 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	font-family: 'Oswald', sans-serif; 
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 .board h1 {
-	margin: 20px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-  margin: 20px;
-  text-align: center;
-	
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 20px;
+    text-align: center;
 }
+
 .create-column {
-	border: none;
-	background-color: #8BC34A;
-	font-size: 16px;
-	color: #fff;
-  padding: 10px;
-  border-radius: 6px;
-	margin: 20px;
-	text-transform: uppercase;
-  cursor: pointer;
-  text-align: center;
+    border: none;
+    background-color: #8BC34A;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
 }
 
 .column-container {
-display: flex;
+    display: flex;
 }
 
 .column-container div:first-child {
-	background-color: #F44336; 
+    background-color: #F44336;
 }
+
 .column-container div:nth-child(2) {
-	background-color: #FF5722; 
+    background-color: #FF5722;
 }
+
 .column-container div:nth-child(3) {
-	background-color:  #8BC34A; 
+    background-color: #8BC34A;
 }
 
 .column {
-	width: 400px;
-	min-height: 400px;
-	margin: 10px 15px;
-  position: relative;
+    width: 400px;
+    min-height: 400px;
+    margin: 10px 15px;
+    position: relative;
 }
 
 .column .column-title {
-	text-transform: uppercase;
-	color: #fff;
-	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
 }
 
 .column .btn-delete {
-	position: absolute;
-	right: 2%;
-	top: 2%;
-	width: 25px;
-  height: 25px;
-  font-size: 18px;
-	background-color: #fff;
-  border: none;
-	color: #424242;
-  border-radius: 15%;
-	
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    color: #424242;
+    border-radius: 15%;
 }
-.column .add-card {  
-	background-color: #fff;
-  font-family: Oswald;
-  letter-spacing: 2px;
-	color: #424242;
-	border: none;
-	font-size: 14px;
+
+.column .add-card {
+    background-color: #fff;
+    font-family: Oswald;
+    letter-spacing: 2px;
+    color: #424242;
+    border: none;
+    font-size: 14px;
 }
 
 .card {
-  position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #424242;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
 }
 
 .card p {
-	color: #fff;
-  font-size: 18px;
-}
-.card .btn-delete {
-	position: absolute;
-	right: 5px;
-  top: 5px;
-	width: 20px;
-	height: 20px;
-  font-size: 16px;
+    color: #fff;
+    font-size: 18px;
 }
 
+.card .btn-delete {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.column-card-list {
+    min-height: 300px;
+    list-style-type: none;
+}
