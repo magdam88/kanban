@@ -86,6 +86,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #424242;
+    margin-top: 5px;
 }
 
 .card p {
